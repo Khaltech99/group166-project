@@ -52,11 +52,12 @@ li {
     margin-right: 1rem;
     margin-bottom: .5rem;
     opacity: .7;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .list__item {
     color: #fff;
+    transition: margin .6s ease-in;
 }
 
 .icon--menu {
@@ -78,7 +79,7 @@ li {
         flex-direction: row;
         justify-content: flex-end;
         margin-right: .5rem;
-        transition: display 20s ease-in-out
+        transition: 20s ease-in-out
     }
     .icon {
         display: none;
@@ -91,8 +92,11 @@ li {
         display: flex;
     }
     li:hover {
-        border-bottom: 4px solid lightblue;
+        border-bottom: 1px solid lightblue;
         border-radius: 5px;
         transition: .1s;
+    }
+    li {
+        font-size: 1.3rem;
     }
 }
